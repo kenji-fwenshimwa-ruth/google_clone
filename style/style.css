@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: white;
+    
+}
+
+.first{
+     display: flex;
+    justify-content: space-between; 
+     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3%; 
+}
+
+.logo img {
+    width: 70%;
+    height: 60%;
+     margin: 0.5rem 5rem 0 1rem;;
+} 
+
+.setting{
+    display: flex;
+}  
+
+.search-box{
+        padding: 1rem;
+        background-color: #fff;
+        box-shadow: 1px 2px 8px rgb(208, 207, 207);
+        border-radius: 2rem;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    
+}
+
+
+.searchbar:hover {
+    box-shadow: 2px 2px 8px rgb(146, 144, 144);
+}
+
+.name {
+    display: inline;
+    position: relative;
+    top: 5px;
+    text-transform: capitalize;
+    font-size: larger;
+    
+}
+
+#search-icons{
+    margin-right: 15rem;
+    font-size: 12rem;
+    
+}
+
+
+a {
+    color: black;
+}
+
+.line {
+    display: inline-block;
+    border-left: 1px solid rgb(206, 205, 205);
+    height: 1.5rem;
+    padding-right: 1rem;
+    position: relative;
+    top: 2px;
+}
+
+.setting{
+    padding: 20px;
+}
+
+
+.setting img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+     padding: 3px; 
+} */
+
+body {
+    background-color: #fff;
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    width: 60%;
+}
+
+.google-logo {
+    width: 92px;
+    height: 30px;
+    margin: 0.5rem 5rem 0 1rem;
+}
+
+.name {
+    text-transform: capitalize;
+    display: inline;
+    position: relative;
+    top: 5px;
+}
+
+.search-bar {
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 1px 2px 8px rgb(208, 207, 207);
+    border-radius: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar:hover {
+    box-shadow: 2px 2px 8px rgb(163, 162, 162);
+}
+
+.icons {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.line {
+    display: inline-block;
+    border-left: 1px solid rgb(206, 205, 205);
+    height: 1.5rem;
+    padding-right: 1rem;
+    position: relative;
+    top: 2px;
+}
+
+/* .navbar-right {
+    margin-left: 25rem;
+} */
+
+.google-image {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    padding: 3px;
+}
+.google-image:hover {
+    background-color: rgb(227, 225, 225);
+}
+
+.right-icons {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-radius: 50%;
+}
+.right-icons:hover {
+    background-color: rgb(246, 242, 242);
+}
+
+.navbar-button {
+    display: flex;
+    margin-left: 13rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.button-links {
+    display: inline-block;
+    margin: 6px;
+}
+
+.all {
+    color: #1a73e8;
+}
+
+.navbar-button-all {
+    border-bottom: 3px solid #1a73e8;
+}
+
+.navbar-button-nav {
+    margin-right: 1.5rem;
+    color: rgb(136, 133, 133);
+}
+
+.tools-container {
+    margin-left: 8rem;
+}
+
+.tools-button {
+    padding: 5px 8px;
+    color: rgb(136, 133, 133);
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+}
+.tools-button:hover {
+    color: #000;
+    background-color: rgb(241, 240, 240);
+    border: 0.1px solid rgb(200, 199, 199);
+}
+
+.navbar-hr {
+    margin: -1rem -2rem;
+    border-top: 0.1px solid rgb(225, 224, 224);
+}
+
+
+/* Main Section */
+
+main {
+    margin: 1.8rem 0;
+}
+
+.overview-result {
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(136, 133, 133);
+    margin: 0 13rem;
+}
+
+.overview-nav {
+    margin: 2rem 13rem 0;
+    display: flex;
+}
+
+.overview-navigation h1 {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.overview-navigation p {
+    display: inline-block;
+    margin-right: 1rem;
+    color: rgb(98, 96, 96);
+}
+
+.overview-navigation i {
+    color: #000;
+}
+
+.overview-buttons {
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+.overview-buttons button {
+    margin-right: 0.2rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 100px;
+    color: #0060f0;
+    background-color: #e2eeff;
+    border: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.overview-buttons button:hover {
+    background-color: #c2dbff;
+}
+
+.overview-buttons .overview-btn {
+    border: 1px solid #0060f0;
+}
+.overview-buttons .overview-btn:hover {
+    background-color: #e2eeff;
+}
+.messi {
+    position: relative;
+}
+.messi-first-overlay {
+    font-size: 12px;
+    padding-left: 15px;
+    position: absolute;
+    bottom: 1rem;
+}
+.messi-first-overlay a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.messi-first {
+    width: 230px;
+    height: 340px;
+    border-radius: 20px 0 0 20px;
+}
+.messi-second {
+    border-radius: 0 20px 0 0;
+    width: 250px;
+    height: 168px;
+}
+
+.messi-third-image {
+    position: relative;
+}
+.messi-third-overlay {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    background-color: #00000080;
+    padding: 10px;
+    border-radius: 50%;
+}
+.messi-third-overlay a {
+    color: #ffffff;
+}
+
+.messi-third {
+    width: 250px;
+    height: 168px;
+    border-radius: 0 0 20px 0;
+}
+
+.overview-image {
+    display: inline-flex;
+    gap: 3px;
+    margin-left: 15rem;
+}
+
+.overview-grid-container {
+    display: flex;
+    margin-top: 1.5rem;
+    background-image: linear-gradient(
+        to right, rgba(250, 249, 249, 0), rgb(230, 238, 254), rgba(250, 249, 249, 0));
+    background-image: linear-gradient(
+        to bottom, rgba(250, 249, 249, 0), rgb(230, 238, 254));
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding-bottom: 1rem;
+}
+
+.overview-video-container {
+    margin-left: 1rem;
+    border-radius: 20px;
+}
+
+.overview-video {
+    border-radius: 20px 20px 0 0;
+}
+
+.video-text-container {
+    background-color: #fff;
+    width: 252px;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+.video-text-container span {
+    color: rgb(92, 91, 91);
+    font-size: 12px;
+}
+
+.paragraph-one {
+    font-size: 15px;   
+    margin-top: 0.8rem;
+}
+.paragraph-two {
+    font-size: 12px;
+    margin-top: 0.3rem;
+    color: rgb(172, 169, 169);
+}
+
+.video-timeframe {
+    font-size: 12px;
+    margin-top: 4rem;
+    color: rgb(92, 91, 91);
+}
+
+.info-container {
+    margin-right: 15rem;
+}
+
+.personal-container {
+    display: flex;
+}
+
+.age, .spouse {
+    margin-bottom: 5rem;
+}
+
+.age-content, .spouse-content {
+    background-color: #e2eeff;
+    margin-left: 0.9rem;
+    padding: 10px;
+    width: 125px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.forbe-news {
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 12px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.forbe-img {
+    border-radius: 20px;
+    width: 105px;
+    height: 130px;
+    margin-left: 0.5rem;
+}
+
+
+.forbe-text-container span {
+    color: rgb(92, 91, 91);
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 2rem;
+}
+
+/* .mirror-text-container p {
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
+    line-height: 1.2;
+} */
+
+/* Top Stories Section */
+
+.top-stories-section {
+    margin-left: 13rem;
+    margin-top: 4rem;
+}
+
+.messi-news h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.messi-news h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(75, 74, 74);
+    line-height: 2;
+}
+
+.liverpool {
+    margin-top: 10rem;
+    border-top: 1px solid rgb(238, 237, 237);
+    width: 60%;
+    display: flex;
+}
+
+.goal, .mirror-sky {
+    margin-top: 10rem;
+    margin-right: 1rem;
+}
+
+.liverpool-messi-img {
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+/* .gms-messi-img:first-of-type {
+    width: 340px;
+} */
+
+.dailypostlogo {
+    display: block;
+}
+
+.goal a, .dailypost a, .skysports-psg a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #1a0dab;
+    line-height: 1.8;
+}
+
+.dailypost a, .dailypost2 a {
+    width: 60%;
+    display: inline-block;
+}
+
+.psg_messi {
+    margin-bottom: -0.5rem;
+}
+
+.psgpost {
+    border-left: 1px solid rgb(238, 237, 237);
+    padding: 1rem;
+}
+
+.dailypost2 {
+    border-top: 1px solid rgb(238, 237, 237);
+    padding-top: 1rem;
+}
+
+.mirror-psg {
+    padding-bottom: 1rem;
+}
+
+.givemesport p, .mirror-psg p, .skysports-psg p {
+    color: rgb(100, 100, 100);
+    margin-top: 0.3rem;
+}
+.givemesport p {
+    margin-top: 1.5rem;
+}
+
+.dp-ss {
+    display: flex;
+    margin-top: 0.5rem;
+    border-top: 1px solid rgb(238, 237, 237);
+    width: 60%;
+}
+
+.dailypost, .sportskeeda {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.sportskeeda {
+    border-left: 1px solid rgb(238, 237, 237);
+    padding-left: 1rem;
+}
+
+.dailypost a, .sportskeeda a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #1a0dab;
+    line-height: 1.8;
+    width: 70%;
+    display: inline-block;
+}
+
+.dailypost p, .sportskeeda p {
+    color: rgb(100, 100, 100);
+    margin-top: 0.3rem;
+}
+
+.dp-ss-img {
+    border-radius: 10px;
+}
