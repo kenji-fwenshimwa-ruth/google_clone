@@ -421,126 +421,96 @@ main {
     padding-right: 2rem;
 }
 
-/* .mirror-text-container p {
-    margin-top: 1rem;
-    margin-bottom: 2.6rem;
-    line-height: 1.2;
-} */
-
-/* Top Stories Section */
-
-.top-stories-section {
-    margin-left: 13rem;
-    margin-top: 4rem;
-}
-
-.messi-news h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
-.messi-news h5 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: rgb(75, 74, 74);
-    line-height: 2;
-}
-
-.liverpool {
-    margin-top: 10rem;
-    border-top: 1px solid rgb(238, 237, 237);
-    width: 60%;
-    display: flex;
-}
-
-.goal, .mirror-sky {
-    margin-top: 10rem;
-    margin-right: 1rem;
-}
-
-.liverpool-messi-img {
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
-}
-/* .gms-messi-img:first-of-type {
-    width: 340px;
-} */
-
-.dailypostlogo {
-    display: block;
-}
-
-.goal a, .dailypost a, .skysports-psg a {
+ a{
     text-decoration: none;
-    font-size: 1rem;
-    color: #1a0dab;
-    line-height: 1.8;
 }
 
-.dailypost a, .dailypost2 a {
-    width: 60%;
-    display: inline-block;
-}
-
-.psg_messi {
-    margin-bottom: -0.5rem;
-}
-
-.psgpost {
-    border-left: 1px solid rgb(238, 237, 237);
-    padding: 1rem;
-}
-
-.dailypost2 {
-    border-top: 1px solid rgb(238, 237, 237);
-    padding-top: 1rem;
-}
-
-.mirror-psg {
-    padding-bottom: 1rem;
-}
-
-.givemesport p, .mirror-psg p, .skysports-psg p {
-    color: rgb(100, 100, 100);
-    margin-top: 0.3rem;
-}
-.givemesport p {
-    margin-top: 1.5rem;
-}
-
-.dp-ss {
+.stories{
     display: flex;
-    margin-top: 0.5rem;
-    border-top: 1px solid rgb(238, 237, 237);
-    width: 60%;
+    margin: 0 10%;
+
 }
 
-.dailypost, .sportskeeda {
-    margin-top: 0.5rem;
-    margin-right: 1rem;
+.stories a{
+    color: #0060f0;
+    font-size: 18px;
+}
+.stories img{
+    border-radius: 10%;
 }
 
-.sportskeeda {
-    border-left: 1px solid rgb(238, 237, 237);
-    padding-left: 1rem;
+.psgdaily{
+    margin-left: 10%;
 }
 
-.dailypost a, .sportskeeda a {
-    text-decoration: none;
-    font-size: 1rem;
-    color: #1a0dab;
-    line-height: 1.8;
-    width: 70%;
-    display: inline-block;
+.top_stories{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+    padding-top: 1%;
+    border-top: 1px solid rgb(199, 197, 197);
+} 
+
+.goal{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    padding-right: 1%;
+    border-right: 1px solid rgb(199, 197, 197);
+}
+.dailypunch, .dailyexpress{
+    display: flex;
+    flex-direction: row;
 }
 
-.dailypost p, .sportskeeda p {
+
+.post{
+    display: flex;
+    width: 350px;
+    height: 130px;
+     margin: 2px 10px; 
+}
+
+.post span{
+    font-size: larger;
+    font-weight: 900;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.all_stories h4{
+    font-size: 20px;
+    font-weight: 100;
     color: rgb(100, 100, 100);
-    margin-top: 0.3rem;
+    margin-bottom: 3%;
+
 }
 
-.dp-ss-img {
-    border-radius: 10px;
+.text h3{
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.about{
+    width: 30%;
+    margin: 3% 0;
+    padding-left: 3%;
+    border-left: 1px solid rgb(199, 199, 199);
+}
+.about, .about a{
+    font-size: 15px;
+}
+
+.about p{
+    color: rgb(92, 92, 92);
+}
+
+.about b{
+    color: #000;
 }
